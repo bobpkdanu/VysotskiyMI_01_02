@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GeometryActivity"
+    android:orientation="vertical">
+
+    <Spinner
+        android:id="@+id/spinnerShape"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="16dp"/>
+
+    <ImageView
+        android:id="@+id/ivFormula"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginHorizontal="50dp"
+        />
+
+    <EditText
+        android:id="@+id/etVar1"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="@string/pickA"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="15dp"
+        android:minHeight="48dp"
+        android:background="@drawable/editor"
+        android:layout_marginHorizontal="50dp"/>
+
+    <EditText
+        android:layout_marginHorizontal="50dp"
+        android:id="@+id/etVar2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="@string/pickB"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/editor"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:layout_marginHorizontal="50dp"
+        android:id="@+id/etVar3"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="@string/pickC"
+        android:inputType="numberDecimal"
+        android:minHeight="48dp"
+        android:background="@drawable/editor"/>
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/raschet"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:background="@drawable/buttoniser"/>
+</androidx.appcompat.widget.LinearLayoutCompat>

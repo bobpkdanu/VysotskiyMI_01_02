@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">VysotskiyMI_01_02</string>
+    <string name="pickA">Введите сторону a</string>
+    <string name="pickB">Введите сторону b</string>
+    <string name="pickC">Введите сторону c</string>
+    <string name="raschet">Выполнить расчет</string>
+    <string name="start">Начать</string>
+</resources>
